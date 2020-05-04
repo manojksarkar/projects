@@ -1,0 +1,71 @@
+body {
+  font-family: "Montserrat" !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold" !important;
+  font-weight: bold !important;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.title-image {
+  width: 100%;
+}
+
+.title-details {
+  position: absolute;
+  transform: translateY(-100%);
+  padding: 5vh 5vw;
+}
+
+.big-heading {
+  font-family: "Montserrat-Black" !important;
+  font-size: 3.5rem !important;
+  line-height: 1.5 !important;
+  color: snow;
+}
+
+.motive{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 10vh 10vw;
+}
+
+.motive p{
+    padding-top: 5vh;
+}
+
+.dark-section{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.technologies{
+    padding: 10vh 10vw;
+}
+
+.technologies h2{
+    padding-bottom: 5vh;
+    text-align: start;
+}
+
+
+.devices{
+    width: 100%;
+}
+
+
+.responsive{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 10vh 10vw;
+}
