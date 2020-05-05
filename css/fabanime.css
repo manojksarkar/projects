@@ -33,6 +33,10 @@ p {
   color: snow;
 }
 
+.rotate{
+  transform: rotate(-45deg) !important;
+}
+
 .motive,
 .responsive {
   display: grid;
@@ -75,10 +79,26 @@ img {
 }
 
 @media(max-width: 600px) {
+  span{
+    display: none;
+  }
+  button{
+    font-size: 12px !important;
+  }
+
+  .title-details{
+    padding-bottom: 5px;
+  }
+  
   .motive,
   .responsive {
       display: flex ;
       flex-direction: column;
     padding: 10vh 10vw;
+  }
+
+  .big-heading {
+    font-size: 2rem !important;
+    line-height: 1 !important;
   }
 }
