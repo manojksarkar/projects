@@ -12,7 +12,7 @@ h6 {
   font-weight: bold !important;
 }
 
-h1{
+h1 {
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -22,6 +22,7 @@ p {
 
 .title-image {
   width: 100% !important;
+  min-height: 200px;
 }
 
 .title-details {
@@ -37,7 +38,7 @@ p {
   color: snow;
 }
 
-.rotate{
+.rotate {
   transform: rotate(-45deg) !important;
 }
 
@@ -82,22 +83,22 @@ img {
   max-width: 100%;
 }
 
-@media(max-width: 600px) {
-  span{
+@media (max-width: 600px) {
+  span {
     display: none;
   }
-  button{
+  button {
     font-size: 12px !important;
   }
 
-  .title-details{
+  .title-details {
     padding-bottom: 5px;
   }
-  
+
   .motive,
   .responsive {
-      display: flex ;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
     padding: 10vh 10vw;
   }
 
